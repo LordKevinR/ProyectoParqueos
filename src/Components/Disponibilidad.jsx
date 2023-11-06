@@ -30,7 +30,7 @@ function Disponibilidad() {
 
   useEffect(() => {
     // Realiza una solicitud GET a la API
-    fetch('http://www.turnopacientesresonanciaa.somee.com/api/parqueos')
+    fetch('https://www.turnopacientesresonanciaa.somee.com/api/parqueos')
       .then((response) => response.json())
       .then((data) => {
         // Actualiza el estado con el valor recibido de la API

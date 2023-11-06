@@ -49,7 +49,7 @@ import React from 'react';
 
 function Salida() {
   const handleButtonPress = async () => {
-      const response = await fetch('http://www.turnopacientesresonanciaa.somee.com/api/parqueos', {
+      const response = await fetch('https://www.turnopacientesresonanciaa.somee.com/api/parqueos', {
         method: 'DELETE',
       });
   };
